@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineCam AI</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #0f172a; color: #fff; margin: 0; padding: 20px; }
+        .card { background: #1e293b; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+        h2 { color: #38bdf8; margin-top: 0; }
+        button { background: #0284c7; color: white; border: none; padding: 10px 16px; border-radius: 8px; font-weight: bold; width: 100%; cursor: pointer; margin-top: 8px; }
+        select { width: 100%; padding: 10px; border-radius: 8px; background: #334155; color: white; border: none; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>CineCam AI - Engine</h2>
+        <label>Select Mode:</label>
+        <select id="mode">
+            <option>DSLR Mode (Canon/Sony)</option>
+            <option>iPhone Cinematic Mode</option>
+            <option>Background & Crowd Remover</option>
+            <option>Smart Wardrobe Upgrade</option>
+        </select>
+        <button onclick="alert('Select image from gallery')">Upload Image</button>
+        <button style="background: #22c55e;" onclick="alert('Processing AI Filters...')">Generate Cinematic Photo</button>
+    </div>
+</body>
+</html>
